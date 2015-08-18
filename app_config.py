@@ -15,23 +15,23 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'lunchbox'
 
 # Project name to be used in file paths
 PROJECT_FILENAME = 'lunchbox'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
-GITHUB_USERNAME = 'nprapps'
+GITHUB_USERNAME = 'ejimbo-com'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'Problems? Contact jim.hill@kunc.org'
 
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
+PRODUCTION_S3_BUCKET = 'apps.kunc.org'
 STAGING_S3_BUCKET = 'stage-apps.npr.org'
 DEFAULT_MAX_AGE = 20
 

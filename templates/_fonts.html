@@ -2,6 +2,8 @@
 {{ JS.push('js/lib/webfont.js') }}
 {{ JS.render('js/webfont.min.js') }}
 <script>
-	// Define your web fonts here.
-	// See https://github.com/typekit/webfontloader for documentation
-</script>
+WebFont.load({
+	google: {
+		families: ['Lato:300,700,700italic,900,italic,regular']
+	}
+});</script>
