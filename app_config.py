@@ -15,18 +15,18 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'cprnews'
 
 # Project name to be used in file paths
-PROJECT_FILENAME = 'lunchbox'
+PROJECT_FILENAME = 'cprnews'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
-GITHUB_USERNAME = 'nprapps'
+GITHUB_USERNAME = 'ejimbo-com'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'jhill@cpr.org'
 
 """
 DEPLOYMENT
